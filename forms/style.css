@@ -1,0 +1,36 @@
+body{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: teal;
+}  
+#one{
+    background-color: #fff;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgb(84, 185, 150);
+    
+    
+}
+
+/* #two{
+    background-color: rgba(47, 79, 79, 0.233);
+    
+} */
+
+
+#list{
+background-color:white;
+border: 2px solid black;
+border-radius: 10px;
+height: fit-content;
+background-color: rgb(61, 204, 209);
+}
+.btn{
+    padding: .6rem 1rem;
+    background-color: teal;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-size: 1rem;
+}
+
