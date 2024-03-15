@@ -5,34 +5,92 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>portfile</title>
     <style>
+
         #links{
             display: flex;
-            justify-content: space-between;
+            justify-content:space-evenly;
+            background-color: rgb(90, 101, 122);
+            
+        }
+        #links h2 a{
+            color: white;
+            text-decoration: none;
+            border: 2px solid rgb(34, 151, 230);
+            border-radius: 10px;
+        }
+
+
+        #one{
+            display: flex;
+            justify-content: center;
+            background-color:darkslategray;
+            font-style: oblique;
+            color:antiquewhite;
+        }
+
+
+        #two{
+           background-color: rgb(35, 105, 107);
+           color:rgb(207, 192, 173);
+        }
+
+
+        #three{
+            background-color: lightslategray;
+            height: 150px;
+            margin-top: -20px;
+            /* color: antiquewhite; */
+        }
+        #two audio{
+           color:rgb(35, 105, 107) ;
+           margin-left: 985px;
         }
     </style>
+
 </head>
 <body>
-    <div id="links">
-        <h2> <a href="./contact/contact.html">contact</a></h2>
+
+<div id="one">
+    <heade >
+       <h1> MY    PORTFILE  </h1>
+    </header><br><br>
+    </div>
+    <nav id="links">
+    
+        <h2> <a href="./contact/contact.html">CONTACT</a></h2>
         
          <h2><a href="./project/project.html">PROJECT</a></h2>
          
         <h2> <a href="./skills/skills.html">SKILLS</a></h2>
         <h2><a href="./table/table.html"> TABLE</a></h2>
         <h2><a href="./forms/index.html"> FORM</a></h2>
-    </div>
-<br><br><br>
+    
+</nav>
+
+<section id="two">
     <img src="./images/images/image.ht.jpg" width="200"  height="150">
 
-    <h1>about myself</h1>
+    <h1>ABOUT MYSELF</h1>
 
     <p>My name is osama ahmad,i am from district dir (lower).<br>
+        I completed my Fsc from Edward model college. <br>
          I am study in university of peshawar in third semister in computer science depertment.<br>
         I have skill in web-development( HTML, CSS ) also good in c++ lnguage. <br>
         I done the project in html <b>(bases,links, images)</b>  also in css  like <b> (position ,flexbox).</b>
              </p>
+             <audio src="./videoAudio/audio.mp3" controls ></audio></audio>
          <br>
+        </section>
 
+        <footer id="three">
+            <h2>PRIVACY POLICY</h2>
+            
+                <p> We respect your privacy. <br>Any information collected on this website will be kept confidential 
+                    <br>
+                    And will not be shared with third parties without your consent.</p>
+</footer>
+
+   
         
 </body>
 </html>
