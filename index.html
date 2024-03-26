@@ -45,6 +45,11 @@
            color:rgb(35, 105, 107) ;
            margin-left: 985px;
         }
+        #speaker{
+            width: 50px;
+            height: 50px;
+            background-color: rgb(218, 206, 191);
+        }
     </style>
 
 </head>
@@ -78,7 +83,8 @@
         I have skill in web-development( HTML, CSS ) also good in c++ lnguage. <br>
         I done the project in html <b>(bases,links, images)</b>  also in css  like <b> (position ,flexbox).</b>
              </p>
-             <audio src="./videoAudio/audio.mp3" controls ></audio></audio>
+             <img src="spkr.webp" id="speaker">
+            
          <br>
         </section>
 
@@ -90,7 +96,17 @@
                     And will not be shared with third parties without your consent.</p>
 </footer>
 
-   
+<script>
+    var audio = new Audio("./videoAudio/audio.mp3");
+
+function playAudio() {
+  audio.play();
+}
+
+document.getElementById("speaker").addEventListener("click", playAudio);
+
+</script>   
         
 </body>
+
 </html>
