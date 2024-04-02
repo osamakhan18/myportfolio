@@ -1,0 +1,12 @@
+body{
+    background-color: #53aac9;
+}
+
+#contact{
+    display: inline-block;
+    border: 2px solid #266e6b;
+    padding: 0.2rem 1rem;
+    border-radius: 20px;
+    margin-left: 40%; 
+}
+
